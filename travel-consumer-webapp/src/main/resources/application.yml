@@ -1,0 +1,41 @@
+server:
+  port: 80
+#localhost  47.92.39.65
+spring:
+  application:
+    name: consumer-feign
+    
+  data:
+      solr:
+        host: http://218.247.21.2:8980/solr/core_1
+      
+      
+      mongodb:  
+               host: 218.247.21.2
+               port: 27017  
+               username: HLTravel
+               password: XbLx2_4_6_8
+               database: travelshop
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://47.92.39.65:8761/eureka/
+  instance:
+    preferIpAddress: true
+    ip-address: 47.92.39.65
+    instance-id: ${eureka.instance.ip-address}:${server.port}
+ribbon:
+  eager-load:
+    enabled: true
+
+#redis 配置
+redis:
+  hostName: 218.247.21.2
+  port: 6379
+  password: XbLx2_4_6_8
+  timeout: 10000

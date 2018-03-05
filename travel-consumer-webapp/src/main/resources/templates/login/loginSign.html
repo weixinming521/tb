@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="renderer" content="webkit" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>登录注册</title>
+    <link href="/css/basic.css" rel="stylesheet" th:href="@{/css/basic.css}" />
+    <link href="/css/tourStyle.css" rel="stylesheet" th:href="@{/css/tourStyle.css}" />
+    <style type="text/css">
+    	html,body{
+    		height:100%;
+    	}
+    </style>
+</head>
+<body>
+	<div class="loginSingContent">
+		<ul class="loginSign">
+			<li class="loginItems loginTab loginItemsChecked">登录</li>
+			<li class="loginItems">注册</li>
+		</ul>
+		<div class="loginDetails">
+			<div class="loginSection">
+				<form class="loginForm">
+				<div class="loginDiv"><input class="loginPhone loginTxt" type="text" placeholder="请输入手机号" /></div>
+				<div class="loginDiv"><input class="loginPassword loginTxt" type="password" placeholder="请输入密码" /></div>
+				<div class="forgetPassword"><a class="loginLink" href="passwordBack.html">忘记密码</a></div>
+				<div class="loginBtnDiv loginMartop"><input class="loginBtn" type="button" value="登录" onclick="goodsLogin();" /></div>
+				</form>
+			</div>
+			<div class="loginSection  loginSectionHide">
+				<form class="loginForm">
+					<div class="loginDiv"><input class="signPhone loginTxt" type="text" placeholder="请输入手机号" /></div>
+					<div class="loginDiv">
+						<input class="signCheck loginTxt" type="text" placeholder="请输入验证码" />
+						<span class="signSplit">丨</span>
+						<input type="button" class="loginTxt loginCheckBtn" value="验证码" onclick="sendCodeRegist(this)" />
+					</div>
+					<div class="loginDiv"><input class="signPassword loginTxt" type="password" placeholder="请输入密码" /></div>
+					<div class="loginBtnDiv"><input class="loginBtn" type="button" value="注册" onclick="signCheck();" /></div>
+				</form>
+				<div class="signAgree">点击“注册”按钮，即表示你同意<a href="j">《用户注册使用协议》</a></div>
+			</div>
+		</div>
+		<!--第三方登录-->
+	<div class="signThirdPart">
+		<div class="signThirdSplit">
+			<span class="signSplitLeft"></span>
+			<span class="signSplitTitle">第三方登录</span>
+			<span class="signSplitLeft"></span>
+		</div>
+		<div class="signThirdPartCon">
+			<span class="thirdCoin thirdCoinChat" data="thirdCoinChatHover" onclick="javascript:window.location.href='/wxLogin';"></span>
+			<!-- <span class="thirdCoin thirdCoinQQ" data="thirdCoinQQHover" onclick="qqToLogin()"></span> -->
+			<!-- <span class="thirdCoin thirdCoinSina" data="thirdCoinSinaHover"></span> -->
+			<!-- <span class="thirdCoin thirdCoinAliPay" data="thirdCoinAliPayHover"  onclick="javascript:window.location.href='/aliLogin';" ></span> -->
+		</div>
+	</div>
+	
+	</div>
+	
+	<!--提示框-->
+	<div class="payWarnContent"><div class="payWarnDiv">请填写姓名</div></div>
+	<script src="/js/jquery/jquery-2.1.0.min.js" type="text/javascript" th:src="@{/js/jquery/jquery-2.1.0.min.js}"></script>
+    <script type="text/javascript" src="/js/login.js" th:src="@{/js/login.js}"></script>  
+</body>
+</html>

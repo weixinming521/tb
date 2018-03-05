@@ -1,0 +1,12 @@
+
+server:
+  port: 8761
+#localhost  47.92.39.65
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+       defaultZone: http://localhost:${server.port}/eureka/

@@ -1,0 +1,695 @@
+/*login-sign*/
+.headerTop{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding:0px 15px;
+	background-color: #fff;
+	line-height: 50px;
+	border-bottom:1px solid #b2b2b2;
+	font-size:16px;
+}
+.headerBack,.headerTitle,.headerDetails{
+	width:33.3%;
+}
+.headerBack{
+	text-align: left;
+}
+.headerTitle{
+	text-align: center;
+}
+.headerDetails{
+	text-align: right;
+	color:#666;
+}
+.headBackImg{
+	width:28px;
+	vertical-align: middle;
+}
+.loginSingContent{
+  	height:100%;
+  	padding-top: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.loginSign{
+	text-align: center;
+}
+.loginDetails{
+    margin-top: 4%;
+}
+.loginItems{
+	display: inline-block;
+	color:#999;
+}
+.loginItemsChecked{
+	color:#333;
+}
+.loginTab{
+	margin-right:60px;
+}
+.loginSection{
+	width:100%;
+}
+.loginForm{
+	width:60%;
+	margin:0px auto;
+}
+.loginSectionHide{
+	display: none;
+}
+.loginDiv{
+	width:100%;
+	border-bottom:1px solid #dadada;
+
+}
+.loginTxt{
+	width:100%;
+	border:none;
+	height:42px;
+	line-height: 42px;
+}
+.forgetPassword{
+	text-align: right;
+	line-height: 40px;
+}
+.loginLink{
+	color:#333;
+}
+.loginBtnDiv{
+    margin-top: 20%;
+	text-align: center;
+}
+.loginBtn{
+	background-color: #fff;
+	width:60%;
+	border:2px solid #333;
+	text-align: center;
+	height:44px;
+	border-radius: 30px;
+	font-size:14px;
+}
+.signCheck{
+	width:50%;
+}
+.signSplit{
+	color:#dadada;
+	font-zize:20px;
+	width:2%;
+}
+.loginCheckBtn{
+	width:30%;
+	background-color: #fff;
+}
+.payWarnContent{
+    display: none;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    left:0px;
+    bottom:60px;
+    z-index: 1000;
+}
+.payWarnDiv{
+    display: inline-block;
+    padding:0 10px;
+    width:50%;
+    line-height: 36px;
+    font-size:16px;
+    background: rgba(0,0,0,0.6);
+    color:#fff;
+    
+}
+.signAgree{
+	text-align: center;
+	margin-top:20px;
+	font-size: 10px;
+	margin-bottom:40%;
+}
+.loginMartop{
+	margin-bottom:84%;
+}
+.signAgree a{
+	color:#748ba2;
+}
+.signThirdSplit{
+	text-align: center;
+	margin-bottom: 24px;
+}
+.signSplitLeft{
+	display: inline-block;
+	width:60px;
+	font-size:0px;
+	height:1px;
+	
+	border-top: 1px solid #B0B0B0 ;
+}
+.signSplitTitle{
+	display: inline-block;
+	color:#3A4049;
+	margin:0px 6px;
+}
+
+.signThirdPart{
+	width:100%;
+	
+}
+.signThirdPartCon{
+	width:100%;
+	text-align: center;
+}
+.thirdCoin{
+	display: inline-block;
+	width:24%;
+	height:28px;
+	
+}
+.thirdCoinChat{
+	background: url(../img/temp/weix-@3x.png) center no-repeat;
+	background-size: 28px 28px;
+}
+.thirdCoinQQ{
+	background:url(../img/temp/qq-@3x.png) center no-repeat;
+	background-size: 28px 28px;
+}
+.thirdCoinSina{
+	background: url(../img/temp/weibo-@3x.png) center no-repeat;
+	background-size: 28px 28px;
+}
+.thirdCoinAliPay{
+	background: url(../img/temp/zhifub-@3x.png) center no-repeat;
+	background-size: 28px 28px;
+}
+.thirdCoinChatHover{
+	background: url(../img/temp/weixin@3x.png) center no-repeat;
+	background-size: 28px 28px;
+}
+.thirdCoinQQHover{
+	background:url(../img/temp/qq@3x.png) center no-repeat;
+	background-size: 28px 28px;
+}
+.thirdCoinSinaHover{
+	background: url(../img/temp/weibo@3x.png) center no-repeat;
+	background-size: 28px 28px;
+}
+.thirdCoinAliPayHover{
+	background: url(../img/temp/zhifubao@3x.png) center no-repeat;
+	background-size: 28px 28px;
+}
+
+/*passwordBack*/
+.passwordBack{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom:40px;
+}
+
+/*balaceMoney*/
+.balancePart{
+	background-color: #fff;
+	padding:15px;
+	border-bottom:1px solid #e8e9eb;
+}
+.balaceFlag,.balanceIncome{
+	color:#999;
+}
+.balaceFlag{
+	text-align: left;
+}
+.balanceIncome{
+	text-align: right;
+}
+.balanceYuan{
+	text-align: center;
+	color:#F8B077;
+	font-size:36px;
+	line-height: 140px;
+}
+.balanceList{
+	background-color: #fff;
+	margin-top:16px;
+	
+}
+.balaceItems{
+	position: relative;
+	line-height: 50px;
+	border-bottom:1px solid #e8e9eb;
+	padding:0 15px;	
+}
+.balanceLink{
+	text-indent: 26px;
+	width:100%;
+	height:100%;
+	display: inline-block;
+	color:#333;
+	background: url(../img/temp/back@3x.png) no-repeat center right;
+	background-size: 5px;
+}
+.balaceItemsImg{
+	width:15px;
+	position: absolute;
+	left:15px;
+	top:18px;
+	
+}
+.balanceGrade{
+	height:16px;
+	background-color: #f5f5f5;
+	font-size:0px;
+	border-bottom:1px solid #e8e9eb;
+}
+/*balanceAdd*/
+.balaceCard{
+	background-color: #fff!important;
+	padding:15px;
+	border-bottom: 1px solid #e8e9eb;
+	background: url(../img/temp/back@3x.png) no-repeat 96% center;
+	
+	background-size:5px;
+}
+.cardFlag{
+	float:left;
+	margin-right:20px;
+	height:50px;
+	
+}
+.cardName,.cardNum{
+	width:50%;
+}
+.cardNum{
+	color:#999999;
+	font-size:12px;
+	margin-top:6px;
+}
+.cardInput{
+	padding-top:15px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 120px;
+}
+.cardYuan{
+	border:noen;
+	border-radius: 5px;
+	border:1px solid #f0f0f0;
+	height:46px;
+	/*text-align: center;*/
+	text-indent: 15px;
+}
+.cardAddNext{
+	padding:15px;
+	text-align: right;	
+	background-color: #fff;
+	color:#666;
+}
+.cardCollect{
+	/*transition:all 1s ease;*/
+	width:100%;
+	height:100%;
+	position: fixed;
+	top:0px;
+	bottom:0px;
+	z-index: 2;
+	background: rgba(0,0,0,0.15);
+	display: none;
+	/*transform: translateX(100%);*/
+}
+/*.cardCollectClick{
+	transform: translateX(0%);
+}*/
+.cardList,.cardkey{
+	transition:all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
+	background-color: #fff;
+	position: fixed;
+	bottom:10px;
+	/*left:50%;*/
+	width:96%;
+	/*transform: translateX(-50%);*/
+	border-radius: 6px;
+	z-index: 5;
+	transform: translateX(104%);
+}
+.cardkey{
+	/*-webkit-transition:all 0.5s ease;*/
+	background-color: #fff;
+	position: fixed;
+	bottom:10px;
+	left:50%;
+	width:96%;
+	transform: translateX(-50%);
+	border-radius: 6px;
+	z-index: 5;
+/*	transform: translateX(104%);
+	transform: translateX(2%);*/
+	padding-top:20px;
+	display: none;
+}
+.balaceCardClick{
+	transform: translateX(2%);
+
+}
+.cardkeyClick{
+	transform: translateX(2%);
+}
+.cardListItems{
+	line-height: 48px;
+	border-bottom: 1px solid #e8e9eb;
+	padding:0px 15px;
+	background: url(../img/temp/back@3x.png) no-repeat 96% center;
+	
+	background-size:5px;
+}
+.cardListItemsAdd{
+	border-bottom:none;
+}
+.cardPayWay{
+	line-height: 50px;
+	text-align: center;
+}
+.cardDelete{
+	position: absolute;
+	top:15px;
+	right:20px;
+}
+.keyforPass{
+	width:80%;
+	margin:0px auto;
+	text-align:right;
+    margin-bottom: 20px;
+
+	
+}
+.cardkeyTitle{
+	width:100%;
+	text-align: center;
+	color:#8e8e8e;
+	margin-bottom:20px;
+}
+.cardkeyDel{
+	position: absolute;
+	top:20px;
+	right:10%;
+}
+.alldelete{
+	width:14px;
+}
+.bankImgFlag{
+	width:44px;
+	vertical-align: middle;
+}
+/*balancePass*/
+.balancePassForm{
+	background-color: #fff;
+	padding:0 15px;
+}
+.balancePassDiv{
+	height:50px;
+	border-bottom:1px solid #e8e9eb;
+}
+.balancePassCheck{
+	border: none;
+	line-height: 50px;
+	width:60%;
+}
+.balancePassFlag{
+	color:#666;
+	padding:20px 15px 0px;
+	background-color: #fff;
+	height:160px;
+}
+.setNumPass{
+	text-align: center;
+	color:#666;
+    padding-top: 20px;
+}
+.set_parent{
+	width:80%;
+	margin: 20px auto 0px;
+	border-radius: 6px;
+	border:1px solid #E0E0E0;
+	overflow: hidden;
+}
+.set_input{
+	float: left;
+	width:16.2%;
+	height:40px;
+	border:none;
+	border-right:1px solid #e0e0e0;
+	background-color: #fff;
+	text-align: center;
+}
+.set_inputRight{
+	border-right: none;
+}
+.pass_flag{
+	margin-top:15px;
+	color: #999;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.balancePassSectionHide{
+	display: none;
+}
+/*balanceSuccess*/
+.balanceSuccessCon{
+	background-color: #fff;
+	text-align: center;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height:260px;
+}
+.balanceSuccImg{
+	
+	width:80px;
+}
+.balanceSuccFlag{
+	margin-top:15px;
+	color:#F8B077;
+}
+
+.balanceSuccMoney{
+	margin-top:15px;
+}
+.balanceSuccFin{
+	margin-top:-50px;
+	border-bottom:1px solid #e8e9eb;
+	color:#666;
+}
+.balanceSuccList{
+	margin-top:10px;
+	padding:15px 15px;
+	background-color: #fff;
+	border-top:1px solid #e8e9eb;
+}
+.balanceSuccPay,.balanceSuccBank{
+	float:left;
+}
+.balanceSuccPay{
+	color:#999;
+	margin-right:15px;
+}
+.balanceSuccYuan{
+	float:right;
+}
+/*cashDraw*/
+.cashDrawCon{
+	background-color: #fff;
+	padding:20px;
+	color:#666;
+}
+/*credits*/
+.creditsNum{
+	color:#666;
+	margin-top:24px;
+}
+.creditsList{
+	padding:8px 15px; 
+	font-size:12px;
+	border-top: none;
+	border-bottom: 1px solid #E8E9EB;
+	margin-top:0px;
+	
+}
+.creditsListCon{
+	margin-top:10px;
+}
+.creditsItems{
+	color:#333;
+}
+.creditsTime{
+	color:#999;
+}
+/*bagdetials*/
+.bagdetails{
+	float: right;
+}
+.bagdetailsTab{
+	width:33.3%;
+	text-align: center;
+	background-color: #fff;
+	line-height: 40px;
+	color:#666;
+	float:left;
+}
+.bagdetailsTabCheck{
+	color:#050505;
+}
+.creditsListConHide{
+	display: none;
+}
+/*bankBound*/
+.bankBoundFlag{
+	margin-top:24px;
+}
+.bankBoundBtn{
+	width:150px;
+	line-height: 46px;
+	border: 1px solid #F0F0F0;
+	border-radius: 5px;
+	text-align: center;
+	margin-top:46px;
+}
+.bankBoundAgreeDiv{
+	margin-top:18px;
+	margin-bottom:60px;
+}
+.bankBoundAgree{
+	float:left;
+}
+.bankBoundlist{
+	float:right;
+	color:#666;
+}
+/*bankResult*/
+.bankResultBlank{
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index: 3;	
+	
+}
+.bankResultImg{
+	width:80%;
+	height:190px;
+	background-color: #fff;
+	border-radius: 5px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	z-index: 5;
+}
+.bankResultImg img{
+	width:80px;
+}
+.bankResultFlag{
+	margin-top:24px;
+}
+/*approve*/
+.approveBtn{
+	width:100%;
+	margin-top:30px;
+}
+.accoutBtn{
+	border:none;
+	border:1px solid #F0F0F0;
+	border-radius:5px;
+	width:36%;
+	line-height: 46px;
+	background-color: #fff;
+}
+#userAccount{
+	margin-right:15px;
+}
+/*firmapprove*/
+.firmPropaper{
+	float:left;
+}
+.firmState{
+	float:right;
+}
+.firmformationItems{
+	padding:15px 0px;
+	border-bottom:1px solid #E8E9EB;
+}
+.firmPropaperUpload{
+	color:#999;
+}
+.firmFile{
+	margin-top:15px;
+	line-height: 50px;
+}
+.firmWait{
+	margin-top:15px;
+	color:#666;
+}
+/*incomeDetails*/
+.incomeDetailsUl{
+	padding:0px 15px;
+}
+.incomeItems{
+	padding:10px 0px;
+}
+.incomeItemsLabel{
+	display: inline-block;
+	width:74px;
+	color:#999;
+}
+
+/*since-index*/
+.sinceIndexImg{
+	width:16px;
+	vertical-align: middle;
+}
+.indexContent{
+	padding:15px;
+}
+.indexBanner{
+	overflow: hidden;
+	border-radius: 5px;
+}
+.indexBannerImg{
+	width:100%;
+}
+.indexType{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	margin-top:16px;
+}
+.indexTypeDiv{
+	text-align: center;
+	width: 33.3%;
+}
+.indexTypeImg{
+	width:42px;
+}
+.indexTypeDiv{
+	color:#5A4B41;
+}
+.indexListItemsImg{
+	float:left;
+	width:120px;
+	height:112px;
+	overflow: hidden;
+	border-radius: 3px;
+}
+.indexListItemsImg img{
+	width:100%;
+	
+}

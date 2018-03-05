@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+	<head>
+		<meta charset="utf-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="renderer" content="webkit" />
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title>收支详情</title>
+	     <link href="/css/basic.css" rel="stylesheet"  th:href="@{/css/basic.css}" />
+	    <link href="/css/tourStyle.css" rel="stylesheet"  th:href="@{/css/tourStyle.css}" />
+	    <script src="/js/jquery/jquery-2.1.0.min.js" type="text/javascript" th:src="@{/js/jquery/jquery-2.1.0.min.js}" ></script>
+	    <style type="text/css">
+	    	html{
+	    		height:100%:
+	    	}
+	    	body{
+	    		background-color: #fff;
+	    		height:100%;
+	    	}
+	    </style>
+	</head>
+	<body>
+		<header class="headerTop">
+			<div class="headerBack"><a href="javascript:history.back()"><img class="headBackImg" src="/img/temp/fanhui@3x.png" th:src="@{/img/temp/fanhui@3x.png}" alt="返回"/></a></div>
+			<div class="headerTitle">收支详情</div>
+			
+		</header>
+		<ul class="incomeDetailsUl">
+			<li class="incomeItems">
+				<span class="incomeItemsLabel">流水号：</span>
+				<span class="incomeItemsType">201707200078986</span>
+			</li>
+			<li class="incomeItems">
+				<span class="incomeItemsLabel">类型：</span>
+				<span class="incomeItemsType">提现</span>
+			</li>
+			<li class="incomeItems">
+				<span class="incomeItemsLabel">支出：</span>
+				<span class="incomeItemsType">200元</span>
+			</li>
+			<li class="incomeItems">
+				<span class="incomeItemsLabel">支付方式：</span>
+				<span class="incomeItemsType">红钱袋</span>
+			</li>
+			<li class="incomeItems">
+				<span class="incomeItemsLabel">时间：</span>
+				<span class="incomeItemsType">2017-07-20 15:12:54</span>
+			</li>
+			<li class="incomeItems">
+				<span class="incomeItemsLabel">余额：</span>
+				<span class="incomeItemsType">285.00</span>
+			</li>
+		</ul>
+	</body>
+</html>

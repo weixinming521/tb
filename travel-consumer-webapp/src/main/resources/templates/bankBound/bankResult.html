@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+	<head>
+		<meta charset="utf-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="renderer" content="webkit"  />
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title>充值</title>
+	    <link href="/css/basic.css" rel="stylesheet" th:href="@{/css/basic.css}" />
+	    <link href="/css/tourStyle.css" rel="stylesheet" th:href="@{/css/tourStyle.css}" />
+	    <script src="/js/jquery/jquery-2.1.0.min.js" type="text/javascript"  th:src="@{/js/jquery/jquery-2.1.0.min.js}" ></script>
+	</head>
+	<body>
+		<header class="headerTop">
+			<div class="headerBack"><a href="javascript:history.back()"><img class="headBackImg" src="/img/temp/fanhui@3x.png"  th:src="@{/img/temp/fanhui@3x.png}"  alt="返回"/></a></div>
+			<div class="headerTitle">账户充值</div>
+			
+		</header>
+		<dl class="balaceCard">
+			<dt class="cardFlag"><img src="" alt="卡标"/></dt>
+			<dd class="cardName">中国农业银行</dd>
+			<dd class="cardNum">尾号 9996</dd>
+		</dl>
+		<div class="bankResultBlank">
+			<div class="bankResultImg">
+				<img src="/img/temp/qingchu@3x.png" th:src="@{/img/temp/qingchu@3x.png}" alt="添加成功" />
+				<div class="bankResultFlag">添加银行卡成功</div>
+			</div>
+		</div>
+	</body>
+</html>

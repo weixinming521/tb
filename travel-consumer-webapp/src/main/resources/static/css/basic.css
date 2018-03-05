@@ -1,0 +1,18 @@
+*{margin:0;padding:0;}
+li{list-style-type:none;}
+a{text-decoration:none;}
+body {font-family: "Microsoft Yahei"; font-size:14px; color:#333333;}
+img{ border:none;}
+input{ outline:none;}			
+*html,*html body{background-image:url(about:blank);background-attachment:fixed; }
+html{
+	font-size:14px;
+}
+.clearfix:after{
+     content:".";       
+     display:block;       
+     height:0;       
+     clear:both;       
+     visibility:hidden;       
+}
+.clearfix{*zoom:1}

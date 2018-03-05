@@ -1,0 +1,12 @@
+server:
+  port: 8050
+spring:
+  application:
+    name: api-get-away
+eureka:
+  instance:
+    hostname: getaway
+  client:
+    service-url:
+      defaultZone: http://47.92.39.65:8761/eureka/
+      
